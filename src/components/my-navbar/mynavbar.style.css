@@ -2,14 +2,26 @@
   width: 10%;
   height: 10%;
 }
-
+.navbar-dark .navbar-nav .nav-link{
+  color: rgb(255, 255, 255);
+  /* -webkit-text-stroke: .5px black; */
+  font-weight: bold;
+}
+/* .navbar-dark .navbar-nav .nav-link:hover{
+  color: white;
+  text-shadow: 2px 2px rgb(255, 212, 19)
+} */
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+  /* -webkit-text-stroke: 0px black; */
+  text-shadow: 1px 1px rgb(211, 84, 0)
+}
 .nav-theme {
-  background-color: #101018f8;
   font-size: 20px;
+  /* box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75); */
 }
 
 .animate-navbar {
-  box-shadow: 1px 1px 1px #222;
   animation: moveDown 0.5s ease-in-out;
 }
 

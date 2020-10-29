@@ -1,0 +1,548 @@
+.bg_project{
+  /* background-color: rgb(149, 143, 201); */
+  background-color: #C9E3FF;
+}
+.font_project{
+  font-size: 450%;
+  color: #394989;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium';
+  line-height: 1;
+  margin-bottom: 11%;
+  text-decoration: underline;
+  text-decoration-color: rgb(231, 99, 51)
+}
+.card_project{
+  font-size: 95%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.desc_project{
+  color: #394989;
+  text-align: left;
+  font-family: 'Helvetica';
+  font-size: 120%;  
+}
+.padding-0{
+  padding-right:0;
+  padding-left:0;
+}
+.parallax-effect-img {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 10px 10px #1c0d61;
+}
+.inner-element2 {
+  transform: translateZ(40px);
+  width: 90%;
+  display: flex;
+  margin: auto;
+  padding-top: 9%;
+}
+.running_text{
+  font-size: 425%;
+  font-family: 'Franklin Gothic Medium';
+  color: #C9E3FF;
+  transform: translateX(-65px);
+  position: relative;
+  white-space: nowrap;
+  line-height: 1;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.running_text2{
+  font-size: 425%;
+  font-family: 'Franklin Gothic Medium';
+  color: #0e0229;
+  transform: translateX(-65px);
+  position: relative;
+  white-space: nowrap;
+  margin: 0;
+  line-height: .5;
+}
+.moving_div{
+  margin-top: 10%;
+}
+.newspaper{
+  margin-top: 25%;
+  z-index: 1;
+}
+.wrapper{
+  position: absolute;
+  z-index: 2;
+  margin-top: 20%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  /* background-color: #C9E3FF; */
+}
+@media only screen and (min-width: 340px) and (max-width: 370px) {
+  .moving_div{
+    margin-top: 125%;
+  }
+  .newspaper{
+    display: none;
+  }
+  .parallax-effect-img {
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 95%;
+    width: 70%;
+    padding: 10px;
+    box-shadow: 10px 10px #1c0d61;
+  }
+  .inner-element2 {
+    transform: translateZ(40px);
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding-top: 9%;
+  }
+  .font_project{
+    font-size: 200%;
+    color: #394989;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51);
+    padding-top: 10%;
+  }
+  .desc_project{
+    font-size: 100%;
+    color: #353b53;
+    text-align: left;
+    font-family: 'Helvetica';
+  }
+  .card_project{
+    font-size: 55%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .running_text{
+    font-size: 225%;
+    font-family: 'Franklin Gothic Medium';
+    color: #C9E3FF;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    line-height: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .running_text2{
+    font-size: 225%;
+    font-family: 'Franklin Gothic Medium';
+    color: #0e0229;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    line-height: .5;
+  }
+}
+@media only screen and (min-width: 371px) and (max-width: 414px) {
+  .moving_div{
+    margin-top: 125%;
+  }
+  .newspaper{
+    display: none;
+  }
+  .parallax-effect-img {
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 95%;
+    width: 70%;
+    padding: 10px;
+    box-shadow: 10px 10px #1c0d61;
+  }
+  .inner-element2 {
+    transform: translateZ(40px);
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding-top: 9%;
+  }
+  .font_project{
+    font-size: 200%;
+    color: #394989;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51);
+    padding-top: 10%;
+  }
+  .desc_project{
+    font-size: 100%;
+    color: #353b53;
+    text-align: left;
+    font-family: 'Helvetica';
+  }
+  .card_project{
+    font-size: 55%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .running_text{
+    font-size: 225%;
+    font-family: 'Franklin Gothic Medium';
+    color: #C9E3FF;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    line-height: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .running_text2{
+    font-size: 225%;
+    font-family: 'Franklin Gothic Medium';
+    color: #0e0229;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    line-height: .5;
+  }
+} 
+@media only screen and (min-width: 415px) and (max-width: 600px){ 
+  .moving_div{
+    margin-top: 95%;
+  }
+  .running_text{
+    font-size: 325%;
+    font-family: 'Franklin Gothic Medium';
+    color: #C9E3FF;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    line-height: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .running_text2{
+    font-size: 325%;
+    font-family: 'Franklin Gothic Medium';
+    color: #0e0229;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    line-height: .5;
+  }
+  .font_project{
+    font-size: 150%;
+    color: #394989;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51);
+    padding-top: 10%;
+  }
+  .desc_project{
+    font-size: 120%;
+    color: #353b53;
+    text-align: left;
+    font-family: 'Helvetica';
+  }
+  .parallax-effect-img {
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 95%;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 10px 10px #1c0d61;
+  }
+  .inner-element2 {
+    transform: translateZ(40px);
+    width: 60%;
+    display: flex;
+    margin: auto;
+    padding-top: 9%;
+  }
+  .wrapper{
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #C9E3FF;
+  }
+  .font_project{
+    font-size: 350%;
+    color: #394989;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .desc_project{
+    font-size: 120%;
+    color: #353b53;
+    text-align: left;
+    font-family: 'Helvetica';
+  }
+  .card_project{
+    font-size: 75%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .moving_div{
+    margin-top: 80%;
+  }
+  .running_text{
+    font-size: 325%;
+    font-family: 'Franklin Gothic Medium';
+    color: #C9E3FF;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    line-height: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .running_text2{
+    font-size: 325%;
+    font-family: 'Franklin Gothic Medium';
+    color: #0e0229;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    line-height: .5;
+  }
+  .parallax-effect-img {
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 95%;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 10px 10px #1c0d61;
+  }
+  .inner-element2 {
+    transform: translateZ(40px);
+    width: 60%;
+    display: flex;
+    margin: auto;
+    padding-top: 9%;
+  }
+  .wrapper{
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #C9E3FF;
+  }
+  .font_project{
+    font-size: 350%;
+    color: #394989;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .desc_project{
+    font-size: 120%;
+    color: #353b53;
+    text-align: left;
+    font-family: 'Helvetica';
+  }
+  .card_project{
+    font-size: 75%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+} 
+@media only screen and (min-width: 769px) and (max-width: 992px){
+  .moving_div{
+    margin-top: 65%;
+  }
+  .running_text{
+    font-size: 325%;
+    font-family: 'Franklin Gothic Medium';
+    color: #C9E3FF;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    line-height: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .running_text2{
+    font-size: 325%;
+    font-family: 'Franklin Gothic Medium';
+    color: #0e0229;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    line-height: .5;
+  }
+  .parallax-effect-img {
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 95%;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 10px 10px #1c0d61;
+  }
+  .inner-element2 {
+    transform: translateZ(40px);
+    width: 60%;
+    display: flex;
+    margin: auto;
+    padding-top: 9%;
+  }
+  .wrapper{
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #C9E3FF;
+  }
+  .font_project{
+    font-size: 350%;
+    color: #394989;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .desc_project{
+    font-size: 120%;
+    color: #353b53;
+    text-align: left;
+    font-family: 'Helvetica';
+  }
+  .card_project{
+    font-size: 75%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+  .moving_div{
+    margin-top: 45%;
+  }
+  .running_text{
+    font-size: 325%;
+    font-family: 'Franklin Gothic Medium';
+    color: #C9E3FF;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    line-height: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .running_text2{
+    font-size: 325%;
+    font-family: 'Franklin Gothic Medium';
+    color: #0e0229;
+    transform: translateX(-65px);
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    line-height: .5;
+  }
+  .parallax-effect-img {
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 95%;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 10px 10px #1c0d61;
+  }
+  .inner-element2 {
+    transform: translateZ(40px);
+    width: 60%;
+    display: flex;
+    margin: auto;
+    padding-top: 9%;
+  }
+  .wrapper{
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #C9E3FF;
+  }
+  .font_project{
+    font-size: 350%;
+    color: #394989;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .desc_project{
+    font-size: 120%;
+    color: #353b53;
+    text-align: left;
+    font-family: 'Helvetica';
+  }
+  .card_project{
+    font-size: 75%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+}

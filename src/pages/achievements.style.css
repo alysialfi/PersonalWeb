@@ -1,0 +1,367 @@
+.bg_achievements{
+  background-color: white;
+  position: relative;
+  padding-top: 20%;
+  z-index: 1;
+}
+.container-achievements{
+  padding-bottom: 25%;
+  padding-left: 5%;
+  padding-right: 15%;
+}
+.title_achievements{
+  font-size: 350%;
+  color: #394989;
+  font-family: 'Franklin Gothic Medium';
+  line-height: 1;
+  margin-bottom: 5%;
+  text-decoration: underline;
+  text-decoration-color: rgb(202, 117, 87);
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.photo_a{
+  transform: rotate(-15deg) translateY(45px);
+  box-shadow: 20px 20px #1c0d61;    
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(.7); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;  
+  width: 100%;
+}
+.photo_b{
+  box-shadow: 20px 20px #1c0d61;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;  
+  width: 100%;
+}
+.photo_c{
+  transform: rotate(9deg) translateY(65px);
+  box-shadow: 20px 20px #1c0d61;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(.7); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;  
+  width: 100%;
+}
+.photo_d{
+  transform: rotate(15deg) translate(85px, 15px);
+  box-shadow: 20px 20px #1c0d61;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;  
+  width: 100%;
+}
+.photo_e{
+  transform: rotate(-15deg) translate(55px, 15px);
+  box-shadow: 20px 20px #1c0d61;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(.7); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;  
+  width: 100%;
+}
+.photo_f{
+  transform: rotate(5deg) translate(25px, 45px);
+  box-shadow: 20px 20px #1c0d61;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;  
+  width: 100%;
+}
+.photo_a:hover, .photo_b:hover, .photo_c:hover, 
+.photo_d:hover, .photo_e:hover, .photo_f:hover{
+  filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+.cloud-footer{
+  width: 100%;
+  transform: rotate(180deg);
+  position: absolute;
+  z-index: 2;
+  top: 95%;
+}
+@media only screen and (min-width: 340px) and (max-width: 370px) {
+  .container-achievements{
+    padding-bottom: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .title_achievements{
+    font-size: 200%;
+    color: #394989;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 117, 87);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .photo_a{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_b{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_c{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_d{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_e{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_f{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 371px) and (max-width: 480px) {
+  .container-achievements{
+    padding-bottom: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .title_achievements{
+    font-size: 200%;
+    color: #394989;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 117, 87);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .photo_a{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_b{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_c{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_d{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_e{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_f{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container-achievements{
+    padding-bottom: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .title_achievements{
+    font-size: 300%;
+    color: #394989;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 117, 87);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .photo_a{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_b{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_c{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_d{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_e{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+  .photo_f{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container-achievements{
+    padding-bottom: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .title_achievements{
+    font-size: 350%;
+    color: #394989;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 117, 87);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .photo_a{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 120%;
+  }
+  .photo_b{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 120%;
+  }
+  .photo_c{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 120%;
+  }
+  .photo_d{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 120%;
+  }
+  .photo_e{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 120%;
+  }
+  .photo_f{
+    transform: none;
+    box-shadow: 0px 0px #1c0d61;    
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: none;  
+    width: 120%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+}

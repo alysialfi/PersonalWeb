@@ -1,0 +1,230 @@
+.about {
+  /* background-image: url("../assets/night_tumblr.png");   */
+  font-size: 1.1em;
+  padding-bottom: 55%;
+  background-color: #C9E3FF;
+  margin-top: 20%;
+  padding-top: 10%;
+  min-height: 100vh;
+} 
+.me{
+  font-size: 5rem; 
+  color: #91D1D3;
+}
+.me-div{
+  z-index: 1;
+  position: absolute;
+  background-color: #D44147;
+  padding: 15px;
+  margin-left: 25%;
+  margin-top: 3%;
+  top: 0;
+}
+.about_pict {
+  width: 75%;
+  padding-top: 25%;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 15%;
+}
+.sparkling {
+  z-index: 0;
+}
+.desc_div{
+  width: 85%;
+}
+.helo{
+  color: rgb(255, 255, 255);
+  font-size: 450%;
+  font-family: 'Franklin Gothic Medium';
+  color: #394989;
+  line-height: 1;
+  margin-bottom: 11%;
+  text-decoration: underline;
+  text-decoration-color: rgb(231, 99, 51)
+}
+.helo_desc{
+  color: rgb(255, 255, 255);    
+  font-family: 'Helvetica';
+  font-size: 120%;  
+  color: #394989;
+}
+.all{
+  z-index: 1;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.bg_right{
+  width: 35%;
+  right: 0;
+  float: right;
+}
+.divider{
+  width:100%;
+  z-index: 1;
+  padding: 0;
+  position: absolute;
+}
+
+@media only screen and (min-width: 340px) and (max-width: 370px) {
+  .all{
+    z-index: 1;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+  }
+  .helo{
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium';
+    color: #394989;
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .helo_desc{
+    color: rgb(255, 255, 255);    
+    font-family: 'Helvetica';
+    font-size: 100%;  
+    color: #394989;
+  }
+}
+@media only screen and (min-width: 371px) and (max-width: 430px) {
+  .all{
+    z-index: 1;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+  }
+  .helo{
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium';
+    color: #394989;
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .helo_desc{
+    color: rgb(255, 255, 255);    
+    font-family: 'Helvetica';
+    font-size: 100%;  
+    color: #394989;
+  }
+}
+@media only screen and (min-width: 431px) and (max-width: 600px) {
+  .helo{
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+    font-family: 'Franklin Gothic Medium';
+    color: #394989;
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .helo_desc{
+    color: rgb(255, 255, 255);    
+    font-family: 'Helvetica';
+    font-size: 120%;  
+    color: #394989;
+  }
+  .bg_right{
+    width: 45%;
+    right: 0;
+    margin-top: 5%;
+    float: right;
+  }
+  .about_pict {
+    width: 65%;
+    padding-top: 5%;  
+    z-index: 1;
+    position: absolute;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .helo{
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+    font-family: 'Franklin Gothic Medium';
+    color: #394989;
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .helo_desc{
+    color: rgb(255, 255, 255);    
+    font-family: 'Helvetica';
+    font-size: 120%;  
+    color: #394989;
+  }
+  .bg_right{
+    width: 45%;
+    right: 0;
+    margin-top: 5%;
+    float: right;
+  }
+  .about_pict {
+    width: 65%;
+    padding-top: 5%;  
+    z-index: 1;
+    position: absolute;
+    margin-left: 15%;
+  }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .helo{
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+    font-family: 'Franklin Gothic Medium';
+    color: #394989;
+    line-height: 1;
+    margin-bottom: 11%;
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 99, 51)
+  }
+  .helo_desc{
+    color: rgb(255, 255, 255);    
+    font-family: 'Helvetica';
+    font-size: 120%;  
+    color: #394989;
+  }
+  .bg_right{
+    width: 45%;
+    right: 0;
+    margin-top: 5%;
+    float: right;
+  }
+  .about_pict {
+    width: 85%;
+    padding-top: 25%;  
+    z-index: 1;
+    position: absolute;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px ){
+  .about {
+    /* background-image: url("../assets/night_tumblr.png");   */
+    font-size: 1.1em;
+    padding-bottom: 95%;
+    background-color: #C9E3FF;
+    margin-top: 20%;
+    padding-top: 10%;
+    min-height: 100vh;
+  } 
+}  

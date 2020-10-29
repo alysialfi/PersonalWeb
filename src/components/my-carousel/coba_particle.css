@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(33, 28, 79);
+  height: 100%;
+}
+.bg{
+  margin-top: 25%;
+  background-color: rgb(33, 28, 79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;  
+  height: 100vh;
+  position: relative;
+}
+.bg_child{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.font{
+  font-size: 170%;
+  color: white;
+  text-align: center;
+  font-family: 'Apple Chancery, cursive';
+  font-style: italic;
+}
+.font2{
+  font-size: 125%;
+  color: white;
+  text-align: center;
+}
+.font3{
+  font-size: 999%;
+  color: white;
+  position: absolute;
+  top: 180%;
+  left: 57%;
+  margin: -25px 0 0 -25px;
+}
+.font4{
+  font-size: 999%;
+  color: white;
+  position: absolute;
+  top: 130%;
+  left: 2%;
+  margin: -25px 0 0 -25px;
+}
+.arrow{
+  animation-name: moveUp;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes moveUp {
+  from {
+    transform: translateY(50%);
+    opacity: .5;
+
+  }
+  to {
+    transform: translate(0px, -800px);
+    opacity: 1;
+
+  }
+}
+.arrow2{
+  animation-name: moveDown;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transform: translate(0px, -800px);
+}
+@keyframes moveDown {
+  from {
+    opacity: 0.1;
+
+  }
+  to {
+    opacity: 0;
+
+  }
+}
+/* .divider{
+  width:100%;
+  margin-top: 40%;
+} */
+
+@media only screen and (max-width: 600px) {
+  .bg_child{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .bg_child{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .bg_child{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}  

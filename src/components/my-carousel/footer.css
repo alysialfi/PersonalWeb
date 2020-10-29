@@ -1,0 +1,121 @@
+.bg-footer{
+  background-color: rgb(33, 28, 79);
+  position: relative;
+  margin-top: 25%;
+}
+.footer-pict{
+  width: 100%;
+  bottom: 0;
+}
+.img-contact{
+  max-width: 55px;
+  margin: 2%;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.img-contact:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.row-img-contact{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer-footer{
+  color: rgb(0, 1, 80);
+  font: 75% 'Franklin Gothic Medium';
+}
+.div-footer{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 40%;
+}
+.name-contact{
+  color: white;
+}
+@media only screen and (min-width: 370px) and (max-width: 480px) {
+  .img-contact{
+    max-width: 35px;
+    margin: 2%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  }
+  .div-footer{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 30%;
+  }
+  .footer-footer{
+    color: rgb(0, 1, 80);
+    font: 35% 'Franklin Gothic Medium';
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .img-contact{
+    max-width: 40px;
+    margin: 2%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  }
+  .div-footer{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 30%;
+  }
+  .footer-footer{
+    color: rgb(0, 1, 80);
+    font: 45% 'Franklin Gothic Medium';
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .img-contact{
+    max-width: 40px;
+    margin: 2%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  }
+  .div-footer{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 35%;
+  }
+  .footer-footer{
+    color: rgb(0, 1, 80);
+    font: 55% 'Franklin Gothic Medium';
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .img-contact{
+    max-width: 45px;
+    margin: 2%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  }
+  .div-footer{
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    left: 40%;
+  }
+  .footer-footer{
+    color: rgb(0, 1, 80);
+    font: 60% 'Franklin Gothic Medium';
+    margin-bottom: 0px;
+  }
+}

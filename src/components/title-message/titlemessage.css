@@ -1,0 +1,101 @@
+.title-tm{
+  font: 425% 'Franklin Gothic Medium';
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+}
+.subtitle-tm{
+  font: 130% 'Franklin Gothic Medium';
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 43%;
+  padding-bottom: 15%;
+}
+
+@media only screen and (min-width: 340px) and (max-width: 370px) {
+  .title-tm{
+    font: 275% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+  }
+  .subtitle-tm{
+    font: 90% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 26%;
+    padding-bottom: 15%;
+  }
+}
+@media only screen and (min-width: 371px) and (max-width: 430px) {
+  .title-tm{
+    font: 295% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+  }
+  .subtitle-tm{
+    font: 95% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 29%;
+    padding-bottom: 15%;
+  }
+}
+@media only screen and (min-width: 431px) and (max-width: 580px) {
+  .title-tm{
+    font: 295% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+  }
+  .subtitle-tm{
+    font: 95% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 27%;
+    padding-bottom: 15%;
+  }
+}
+@media only screen and (min-width: 581px) and (max-width: 768px) {
+  .title-tm{
+    font: 315% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+  }
+  .subtitle-tm{
+    font: 115% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    padding-bottom: 15%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .title-tm{
+    font: 375% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+  }
+  .subtitle-tm{
+    font: 135% 'Franklin Gothic Medium';
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    padding-bottom: 15%;
+  }
+}

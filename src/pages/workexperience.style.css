@@ -1,0 +1,182 @@
+.bg_education{
+  background-color: hsl(0, 0%, 100%);
+  padding-top: 10%;
+}
+.title_edu{
+  font-size: 350%;
+  color: #394989;
+  font-family: 'Franklin Gothic Medium';
+  line-height: 1;
+  margin-bottom: 5%;
+  text-decoration: underline;
+  text-decoration-color: rgb(202, 117, 87);
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #ce2a2a; 
+  color: yellow;
+}
+.vertical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: rgb(30, 20, 75);
+}
+/* Icon container's border */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #1976d2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #c2185b, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.div-vertical-timeline{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@media only screen and (min-width: 340px) and (max-width: 370px) {
+  .bg_education{
+    background-color: #ffffff;
+    padding-top: 65%;
+  }
+  .title_edu{
+    font-size: 200%;
+    color: #394989;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 117, 87);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .div-vertical-timeline{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .vertical-timeline-element-content{
+    width: 75%;
+  }
+  .vertical-timeline-element-title{
+    font-size: 125%;
+  }
+  .vertical-timeline-element-subtitle{
+    padding-top: 4%;
+    font-size: 95%;
+  }
+}
+@media only screen and (min-width: 371px) and (max-width: 480px) {
+  .bg_education{
+    background-color: #ffffff;
+    padding-top: 65%;
+  }
+  .title_edu{
+    font-size: 200%;
+    color: #394989;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 117, 87);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .div-vertical-timeline{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .vertical-timeline-element-content{
+    width: 75%;
+  }
+  .vertical-timeline-element-title{
+    font-size: 125%;
+  }
+  .vertical-timeline-element-subtitle{
+    padding-top: 4%;
+    font-size: 95%;
+  }
+}
+@media only screen  and (min-width: 481px) and (max-width: 768px) {
+  .bg_education{
+    background-color: #ffffff;
+    padding-top: 25%;
+  }
+  .title_edu{
+    font-size: 300%;
+    color: #394989;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 117, 87);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .div-vertical-timeline{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .vertical-timeline-element-content{
+    width: 75%;
+  }
+  .vertical-timeline-element-title{
+    font-size: 125%;
+  }
+  .vertical-timeline-element-subtitle{
+    padding-top: 4%;
+    font-size: 95%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 869px) {
+  .bg_education{
+    background-color: #ffffff;
+    padding-top: 15%;
+  }
+  .title_edu{
+    font-size: 350%;
+    color: #394989;
+    font-family: 'Franklin Gothic Medium';
+    line-height: 1;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 117, 87);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .div-vertical-timeline{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .vertical-timeline-element-content{
+    width: 85%;
+  }
+  .vertical-timeline-element-title{
+    font-size: 145%;
+  }
+  .vertical-timeline-element-subtitle{
+    padding-top: 4%;
+    font-size: 115%;
+  }
+}
+
+@media only screen and (min-width: 870px) and (max-width: 1200px) {
+  
+}
