@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Form, Button, Container, Image, Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap'
-import emailjs from 'emailjs-com'
 import footer_pict from './../../assets/footer_pict.png'
-import cloud from './../../assets/cloud.png'
 import './footer.css'
 import ig from './../../assets/instagram2.svg'
 import github from './../../assets/github2.svg'

@@ -1,10 +1,8 @@
 import React, {useState, useEffect} from 'react'
-import { Image } from 'react-bootstrap'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { Camera, Smartphone, Language } from '@material-ui/icons'
 import "react-vertical-timeline-component/style.min.css"
 import "./workexperience.style.css"
-import circle from '../assets/circle.png'
 
 
 const Education = () => {

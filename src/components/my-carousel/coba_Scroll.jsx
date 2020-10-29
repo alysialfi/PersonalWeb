@@ -16,9 +16,6 @@ class coba_Scroll extends React.Component {
 
   componentDidMount() {
     this.listener = document.addEventListener("wheel", e => {
-      //var scrolled = document.scrollingElement.scrollTop;
-      //if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-      // you're at the bottom of the page
       if (e.deltaY < 0) {
         if (this.state.position !== "top") {
           this.setState({ position: "top" });
@@ -54,23 +51,6 @@ class coba_Scroll extends React.Component {
 
     return (
       <div>
-        {/* <p
-          style={{
-            backgroundColor: this.state.position === "middle" ? "red" : "green",
-            color: this.state.pos === "middle" ? "white" : "blue",
-            margin: "auto",
-            left: 0,
-            bottom: 0,
-            right: 0,
-            transform: this.state.position === "middle" ? "translate(50px, 100px)" : "skewY(20deg)"
-          }}
-        >
-          Amir
-        </p> */}
-
-        {/* <Image src="https://www.flaticon.com/svg/static/icons/svg/3534/3534522.svg" 
-        className="car"
-        /> */}
 
         {skrolap}
       </div>

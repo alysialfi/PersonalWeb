@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
 import { Container, Row, Col, Button, Image } from 'react-bootstrap'
-import myphoto from '../assets/foto_alysia.jpg'
-import Aos from 'aos'
 import './about.style.css'
 import computer from '../assets/about_pict.png'
 import bg_right from '../assets/bg_about.png'
@@ -19,8 +17,6 @@ const MyAbout = () => {
       <Container className="all">
 
         <Row className="pt-5">
-
-          {/* for pic */}
           <Col xs={12} md={6}>
             <Row className="justify-content-center mb-2">
             <div className="desc_div">
@@ -31,8 +27,6 @@ I am sociable and love enjoys traveling, going somewhere I've never been before 
             </div>
             </Row>
           </Col>
-
-          {/* for words */}
 
           <Col xs={12} md={6} className="p-3">
             <Row className="">

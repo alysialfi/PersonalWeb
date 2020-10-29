@@ -1,6 +1,5 @@
 import React from 'react'
 import { Image, Button, Container, Row, Col, Carousel } from 'react-bootstrap'
-import myphoto from '../assets/foto_alysia.jpg'
 import 'swiper/swiper.scss'
 import './portofolio.style.css'
 import divider from '../assets/divider_white.png'
@@ -78,21 +77,6 @@ export const Portofolio = () => {
 
           })}
 
-          {/* <Carousel.Item>
-            <Row className="pb-5">
-              <Col className="d-flex justify-content-center">
-                <Image
-                  className="img"
-                  src={myphoto}
-                  alt="First slide"
-                />
-              </Col>
-              <Col className="">
-                <h3>Second slide label</h3>
-                <p>ASHIAP ASHIAP ASHIAP</p>
-              </Col>
-            </Row>
-          </Carousel.Item> */}
         </Carousel>
 
       </div>

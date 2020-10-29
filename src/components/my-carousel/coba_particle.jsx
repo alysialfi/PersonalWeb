@@ -1,11 +1,7 @@
 import React, { useEffect, useRef, Component } from 'react'
-import Particles from 'react-particles-js';
 import { Image } from 'react-bootstrap'
 import "./coba_particle.css"
-import Rellax from 'rellax'
-import { useTrail, animated } from 'react-spring'
 import arrow from "../../assets/up-arrow.svg"
-import cloud from '../../assets/cloud.png'
 
 class coba_particle extends React.Component {
 
@@ -21,9 +17,6 @@ class coba_particle extends React.Component {
 
   componentDidMount() {
     this.listener = document.addEventListener("wheel", e => {
-      //var scrolled = document.scrollingElement.scrollTop;
-      //if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-      // you're at the bottom of the page
       if (e.deltaY < 0) {
         if (this.state.position !== "bottom") {
           this.setState({ position: "bottom" });
@@ -63,9 +56,6 @@ class coba_particle extends React.Component {
             -Umar ibn Al-Khattab-
           </p>
         </div>
-        {/* {skroldon} */}
-
-        {/* <Image src={cloud} className="divider"></Image> */}
 
       </div>
     )

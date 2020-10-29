@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Image, Col, Row, Container } from 'react-bootstrap'
 import "./achievements.style.css"
-import myphoto from '../assets/foto_alysia.jpg'
 import sertif1 from '../assets/sertif1.png'
 import sertif2 from '../assets/sertif2.png'
 import sertif3 from '../assets/sertif3.png'
